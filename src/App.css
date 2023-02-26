@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.agGridTableStyle {
+  border-width: 1px !important;
+  border-color: #babfc7 !important;
+  margin: 20px;
+}
+
+.ag-header-cell {
+  border-radius: 10px !important;
+}
+
+.ag-row{
+  border-bottom: 1px solid #babfc7;
+  /* border-left: 1px solid #babfc7;
+  border-right: 1px solid #babfc7; */
+}
+
+.ag-cell-focus{
+  border: none !important;
+}
+
+.textFieldStyle{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.dialogueTitleStyle{
+  font-size: 22px !important;
+  font-weight: 600 !important;
+}
+
+.companyHeaderText{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 800;
+  padding: 20px 20px 0px 20px;
+}
